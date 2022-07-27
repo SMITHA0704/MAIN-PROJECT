@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>AQI-Prediction</title>
+    <link rel="stylesheet" href="/static/css/res.css">
+</head>
+
+<style>
+table, th, td {
+  border: 5px solid black;
+  border-collapse: collapse;
+}
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+th, td {
+  padding: 10px;
+}
+</style>
+<body background="/static/images/air-pollution3.jpg">
+<!--body bgcolor="powderblue">-->
+<h1 align="center"><u>PREDICTION RESULT</u></h1>
+<table class="center">
+<tr><td>
+    <h1 id="result">{{prediction_text}}</h1>
+ </td></tr>   
+ </table>  
+</body>
+</html>
